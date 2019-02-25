@@ -5,3 +5,10 @@ C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\obj\Debug\ConsoleAccess.
 C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\obj\Debug\ConsoleAccess.csproj.CoreCompileInputs.cache
 C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\obj\Debug\ConsoleAccess.exe
 C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\obj\Debug\ConsoleAccess.pdb
+C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\ConsoleAccess\bin\Debug\ConsoleAccess.exe.config
+C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\ConsoleAccess\bin\Debug\ConsoleAccess.exe
+C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\ConsoleAccess\bin\Debug\ConsoleAccess.pdb
+C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\ConsoleAccess\obj\Debug\ConsoleAccess.csprojResolveAssemblyReference.cache
+C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\ConsoleAccess\obj\Debug\ConsoleAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\ConsoleAccess\obj\Debug\ConsoleAccess.exe
+C:\Users\Ignis\source\repos\ConsoleAccess\ConsoleAccess\ConsoleAccess\obj\Debug\ConsoleAccess.pdb

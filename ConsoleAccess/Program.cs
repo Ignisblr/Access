@@ -6,6 +6,20 @@ using System.Threading.Tasks;
 
 namespace ConsoleAccess
 {
+    class Man : AbstractHuman
+    {
+        string name;
+        public enum Race { European, Negroid, Asian };
+
+        public override string Name(string name)
+        {
+            this.name = name;
+            return this.name;
+        }
+
+        public string GetRace(Race race)
+        { return race.ToString(); }
+    }
     class Program:Access
     {
         static void Main(string[] args)
@@ -22,6 +36,12 @@ namespace ConsoleAccess
             program.f = 20;//мы не может напрямую обратиться к методу DisplayPublic(), т.к он закрыт
             //Но открыта переменная f и мы используем её
             Console.WriteLine($"public variable \"f\" = {program.f}");
+            program.DisplayProtected(5,6);
+            var some = StaticClass.SomeMethod(random.Next(0, 8));
+            Console.WriteLine($"some static variable = {some}");
+            
+            Man man = new Man() { Sex = true, Age = 45, Length = 178, Weight=78};
+            Console.WriteLine($"The man`s name is {man.Name("Bill")} and race is {man.GetRace(Man.Race.European)}");
             Console.ReadKey();
         }
     }
